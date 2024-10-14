@@ -1,0 +1,154 @@
+/* General Page Styling */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #eae2b7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Anchor tags */
+a:link {
+  color: #d62828;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f77f00;
+  text-decoration: underline;
+}
+
+/* Header Styling */
+header {
+  background-color: #f8f4e8;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+header ul {
+  display: inline-block;
+  padding: 0;
+}
+
+header ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header ul li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* About Section */
+#about {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#about h1 {
+  font-size: 36px; /* Larger font size for the About heading */
+  margin-bottom: 20px;
+}
+
+#about h2 {
+  font-size: 28px; /* Smaller font size for Hi! I'm Pete Thinkful */
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#about h3 {
+  font-size: 24px; /* Font size for Pete's Background */
+  margin-bottom: 15px;
+}
+
+.image-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #003049; /* Border for the image */
+  margin-bottom: 20px;
+}
+
+/* Portfolio Section */
+#portfolio {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#portfolio h1 {
+  font-size: 36px; /* Larger font size for the Portfolio heading */
+  margin-bottom: 40px;
+}
+
+#portfolio h2 {
+  font-size: 28px; /* Smaller font size for the project names */
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.portfolio-item {
+  margin-bottom: 40px;
+}
+
+.portfolio-item img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centers the image */
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.portfolio-item p {
+  font-style: italic;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #f4ebd9;
+  padding: 50px 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+#contact h2 {
+  font-size: 36px; /* Centered Contact heading */
+  margin-bottom: 20px;
+}
+
+#contact ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+#contact ul li {
+  margin: 10px 0;
+}
+
+#contact ul li a {
+  font-weight: bold;
+  color: #d62828;
+}
+
+#contact ul li a:hover {
+  color: #f77f00;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
